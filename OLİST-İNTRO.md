@@ -10,8 +10,6 @@ In addition, we have also provided a geolocation dataset that maps Brazilian zip
 
 Feel free to explore and analyze this dataset for various insights, and don't hesitate to reach out if you have any questions or need further information.
 
-Happy data analysis!
-
 **Context**:
 This dataset was generously provided by Olist, the largest department store in Brazilian marketplaces. Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners. See more on our website: [www.olist.com](https://www.olist.com/)
 
@@ -20,3 +18,22 @@ After a customer purchases the product from Olist Store a seller gets notified t
 I tried to introduce Olist a bit above, but I have placed the details about the dataset below. You can access it from the link.
 
 [Olist Brazilian E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+# Olist Dataset Analyses
+
+I have conducted four analyses for the Olist dataset, each focusing on different aspects:
+
+- **Order Analysis**: This analysis provides insights into order-related data.
+- **Customer Analysis**: Explore customer-related trends and patterns.
+- **Seller Analysis**: Gain valuable information about seller performance.
+- **Payment Analysis**: Understand payment patterns and transactions.
+
+I performed these analyses using PostgreSQL and organized all the SQL queries into separate files, named after their respective analysis.
+
+You can access the SQL query files and the results of these analyses in the corresponding folders.
+
+Additionally, I have created visualizations for each analysis using Power BI. You can find these visualizations in the files associated with the respective analysis names.
+
+Feel free to explore the details and insights provided in each analysis to better understand the Olist dataset.
+
+Happy data analysis!
