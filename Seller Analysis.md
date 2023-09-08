@@ -1,6 +1,7 @@
 # 🔍 Seller Analysis 
 ## Question 1 :
 ### Which sellers deliver orders to customers the fastest? Provide the top 5.
+
 `````sql
 select 
 	distinct s.seller_id,
@@ -18,6 +19,7 @@ where o.order_status='delivered'
 order by 3 asc , 4 asc
 limit 5 
 ````
+
 | seller_id                        | delivered_day | delivered_hour | delivered_minute |
 |----------------------------------|---------------|----------------|------------------|
 | b92e3c8f9738272ff7c59e111e108d7c | 0             | 0              | 2                |
@@ -27,6 +29,7 @@ limit 5
 | 8b321bb669392f5163d04c59e235e066 | 0             | 0              | 18               |
 
 ### Examine the order counts of these sellers along with the reviews and ratings for their products, and provide an analysis.
+
 ````sql
 with seller as 
 (
