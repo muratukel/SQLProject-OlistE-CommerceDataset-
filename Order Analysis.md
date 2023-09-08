@@ -64,7 +64,7 @@ order by 1 desc
 | 2018-07  | invoiced     | 12          |
 | 2018-07  | processing   | 1           |
 
-# ❗ the first ten lines are shown.
+### ❗ the first ten lines are shown.
 
 # 📈 Question 3 :
 ### Examine the order counts by product category.
@@ -92,7 +92,7 @@ order by 2 desc
 | ferramentas_jardim        | 4347     |
 | automotivo                | 4235     |
 
-# ❗ the first ten lines are shown.
+###❗ the first ten lines are shown.
 
 # 🎉 Question 4 :
 ### What are the prominent categories on special occasions? For example, New Year's Eve, Valentine's Day...
@@ -129,7 +129,7 @@ order by 2 desc
 | ferramentas_jardim        | 341         |
 | relogios_presentes        | 317         |
 
-# ❗ the first ten lines are shown.
+### ❗ the first ten lines are shown.
 
 The order count by category at the beginning of the carnival along with the carnival name - Solution 2
 
@@ -168,7 +168,7 @@ order by 1 desc
 | 61          | relogios_presentes      | Brezilya Karnavalı  |
 | 59          | eletronicos             | Brezilya Karnavalı  |
 
-# ❗ the first ten lines are shown.
+### ❗ the first ten lines are shown.
 
 The comparison of the total order count by categories at the beginning of the carnival and the total order count by categories - Solution 3
 
@@ -224,7 +224,7 @@ order by co.order_count desc
 | ferramentas_jardim      | 4347              | 89                        |
 | automotivo              | 4235              | 57                        |
 
-# ❗ the first ten lines are shown.
+### ❗ the first ten lines are shown.
 
 #  Question 5 :
 ### Analyze order counts based on weekdays (e.g., Monday, Thursday) and month days (e.g., 1st, 2nd of the month).Create a visualization in Power BI with the output of the query you have written and provide an interpretation.
@@ -238,6 +238,16 @@ from orders
 group by 1
 order by 2 desc;
 ````
+| day_of_week | order_count |
+|-------------|-------------|
+| Tuesday     | 19154       |
+| Wednesday   | 15786       |
+| Thursday    | 15471       |
+| Friday      | 14659       |
+| Monday      | 13001       |
+| Saturday    | 12196       |
+| Sunday      | 9014        |
+|             | 160         |
 
 ### Order counts based on days of the month
 ````sql
@@ -248,6 +258,40 @@ from orders
 group by 1
 order by 2 desc;
 ````
+| day_of_month | order_count |
+|--------------|-------------|
+| 24           | 4315        |
+| 05           | 3970        |
+| 07           | 3644        |
+| 16           | 3525        |
+| 18           | 3497        |
+| 25           | 3465        |
+| 20           | 3443        |
+| 15           | 3443        |
+| 06           | 3409        |
+| 14           | 3351        |
+| 13           | 3346        |
+| 10           | 3333        |
+| 08           | 3306        |
+| 17           | 3306        |
+| 27           | 3281        |
+| 26           | 3259        |
+| 09           | 3226        |
+| 11           | 3213        |
+| 01           | 3170        |
+| 03           | 3168        |
+| 12           | 3123        |
+| 28           | 3104        |
+| 19           | 3097        |
+| 02           | 3086        |
+| 04           | 3000        |
+| 22           | 2971        |
+| 23           | 2933        |
+| 21           | 2790        |
+| 29           | 2519        |
+| 30           | 2346        |
+| 31           | 1642        |
+|              | 160         |
 
 ### Analysis of order counts based on days of the week and days of the month.
 ````sql
@@ -259,7 +303,20 @@ from orders
 group by 1, 2
 order by 3 desc;
 ````
+| day_of_week | day_of_month | order_count |
+|-------------|--------------|-------------|
+| Tuesday     | 24           | 1577        |
+| Thursday    | 05           | 1113        |
+| Friday      | 24           | 1112        |
+| Saturday    | 25           | 962         |
+| Tuesday     | 07           | 951         |
+| Tuesday     | 05           | 878         |
+| Tuesday     | 12           | 865         |
+| Tuesday     | 17           | 845         |
+| Wednesday   | 25           | 815         |
+| Tuesday     | 06           | 809         |
 
+### ❗ the first ten lines are shown.
 ### Analysis of order counts based on days of the week and days of the month (using CASE WHEN solution)
 ````sql
 select count(order_id) as order_count,
@@ -277,4 +334,17 @@ from orders
 group by day_of_week, day_of_month
 order by order_count  desc;
 ````
+| order_count | day_of_week | day_of_month |
+|-------------|-------------|--------------|
+| 1577        | TUESDAY     | 24           |
+| 1113        | THURSDAY    | 5            |
+| 1112        | FRIDAY      | 24           |
+| 962         | SATURDAY    | 25           |
+| 951         | TUESDAY     | 7            |
+| 878         | TUESDAY     | 5            |
+| 865         | TUESDAY     | 12           |
+| 845         | TUESDAY     | 17           |
+| 815         | WEDNESDAY   | 25           |
+| 809         | TUESDAY     | 6            |
 
+### ❗ the first ten lines are shown.
