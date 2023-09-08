@@ -1,5 +1,5 @@
 # 🔍 Seller Analysis 
-## Question 1 :
+## 🛒 Question 1 :
 ### Which sellers deliver orders to customers the fastest? Provide the top 5.
 
 ````sql
@@ -28,7 +28,7 @@ limit 5
 | 1835b56ce799e6a4dc4eddc053f04066 | 0             | 0              | 15               |
 | 8b321bb669392f5163d04c59e235e066 | 0             | 0              | 18               |
 
-### Examine the order counts of these sellers along with the reviews and ratings for their products, and provide an analysis.
+### 💬 Examine the order counts of these sellers along with the reviews and ratings for their products, and provide an analysis.
 
 ````sql
 with seller as 
@@ -72,7 +72,7 @@ order by s.delivered_hour asc , s.delivered_minute asc
 | 1835b56ce799e6a4dc4eddc053f04066 | 0             | 0              | 15               | 190         | 3.08             | 188                          |
 | 8b321bb669392f5163d04c59e235e066 | 0             | 0              | 18               | 395         | 3.58             | 384                          |
 
-## Question 2 :
+## 💼 Question 2 :
 ### What sellers sell products in more categories? Do sellers with more categories also have a higher order count?
 
 ````sql
