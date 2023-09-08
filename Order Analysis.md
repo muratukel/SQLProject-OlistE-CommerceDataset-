@@ -1,4 +1,4 @@
-## 📊 Order Analysis
+## Case 1 : Order Analysis 📊
 
 # 📉 Question 1 : 
 ### Examine the monthly order distribution. Date data should be based on 'order_approved_at'.
