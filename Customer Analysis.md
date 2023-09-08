@@ -1,5 +1,5 @@
 # 🎯👤 Customer Analysis
-## Question 1 :
+## 🖇️ Question 1 :
 ### Which cities do customers shop more in? Determine the customer's city with the highest number of orders and perform the analysis based on that.
 ````sql
 with order_counts as (
@@ -47,7 +47,7 @@ select cc.customer_city,
 
 ## ❗ the first ten lines are shown.
 
-## Question 2 :
+## 🖇️ Question 2 :
 ### Examine orders based on customers and their categories. Do customers typically order products from the same category. Calculate the order category percentage for each customer.
 
 ### Examining customer-specific orders and their categories.
@@ -81,7 +81,7 @@ order by 2 desc
 
 ## ❗ the first ten lines are shown.
 
-## Question 3 :
+## 🖇️ Question 3 :
 ### Calculate the order category percentage for each customer. For example, if customer X has 20 orders, and this person placed 10 of them (50%) in the fashion category, 6 of them (30%) in the cosmetics category, and 4 of them (20%) in the food category.
 
 ###Calculating and analyzing the order category percentage of customers total order counts by categories.
@@ -139,7 +139,7 @@ order by cto.order_count_ desc
 | 1b6c7548a2a1f9037c1fd3ddfed95f33 | papelaria                              | 1           | 7            | 2          | 14.00          |
 
 ## ❗ the first ten lines are shown.
-# CUSTOMER ANALYSİS DASHBOARD
+# 📊📈📉 CUSTOMER ANALYSİS DASHBOARD
 
 ![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/8d40f166-bfd5-40ad-b42a-5a2ed238e98b)
 
