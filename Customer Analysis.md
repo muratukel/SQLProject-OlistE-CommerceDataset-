@@ -1,4 +1,4 @@
-# 🎯👤 Customer Analysis
+# Case 2 : Customer Analysis 🎯👤
 ## 🖇️ Question 1 :
 ### Which cities do customers shop more in? Determine the customer's city with the highest number of orders and perform the analysis based on that.
 ````sql
