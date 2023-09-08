@@ -2,7 +2,7 @@
 
 ![img](https://miro.medium.com/v2/resize:fit:860/1*axbXtRXw9pgn1QA9HVkQVA.png)
 
-<p align="medium">
+<p align="center">
   <img src="https://miro.medium.com/v2/resize:fit:860/1*axbXtRXw9pgn1QA9HVkQVA.png" alt="Resim Açıklaması">
 </p>
 
