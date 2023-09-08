@@ -19,7 +19,7 @@ I tried to introduce Olist a bit above, but I have placed the details about the 
 
 [Olist Brazilian E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-# Olist Dataset Analyses
+# Olist Dataset Analysis
 
 I have conducted four analyses for the Olist dataset, each focusing on different aspects:
 
