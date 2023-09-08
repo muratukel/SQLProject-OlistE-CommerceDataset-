@@ -350,4 +350,5 @@ order by order_count  desc;
 ### ❗ the first ten lines are shown.
 
 # ORDER ANALYSİS DASHBOARD 
-![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/af6d3232-2a1d-46a3-a328-dd78b65049c4)
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/06392279-5cc5-470e-852d-b1e2ed9b1fca)
+
