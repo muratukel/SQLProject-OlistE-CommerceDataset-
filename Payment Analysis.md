@@ -113,3 +113,4 @@ order by
 | perfumaria              | 1,238                | 1,945                   |
 
 ### ❗ the first ten lines are shown.
+# PAYMENT ANALYSİS DASHBOARD 
