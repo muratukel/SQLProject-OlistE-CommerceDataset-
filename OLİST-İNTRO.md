@@ -36,4 +36,10 @@ Additionally, I have created visualizations for each analysis using Power BI. Yo
 
 Feel free to explore the details and insights provided in each analysis to better understand the Olist dataset.
 
+I'm delighted to have completed this project. Analyzing e-commerce data with SQL and finding solutions to real-world business problems has once again emphasized the importance of using 
+
+SQL. If you found this project useful and liked it, please don't forget to give my GitHub repository a star. This will help the project reach a wider audience and contribute to its further 
+
+development. Feel free to reach out openly for any feedback, suggestions, or questions. It can be a source of motivation for both you and me, helping us grow.
+
 Happy data analysis!
