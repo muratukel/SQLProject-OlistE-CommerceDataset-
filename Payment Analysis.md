@@ -114,4 +114,5 @@ order by
 
 ### ❗ the first ten lines are shown.
 # PAYMENT ANALYSİS DASHBOARD 💳📊
-![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/090f5510-89ac-4171-92d4-1765c0bb716c)
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/1b7c26c6-b28b-4edb-810e-ee18ac22aeda)
+
