@@ -2,7 +2,7 @@
 ## Question 1 :
 ### Which sellers deliver orders to customers the fastest? Provide the top 5.
 
-`````sql
+````sql
 select 
 	distinct s.seller_id,
 	 extract(day from age(order_delivered_customer_date, order_purchase_timestamp)) as delivered_day,
@@ -17,7 +17,7 @@ where o.order_status='delivered'
 	and extract (day from age(order_delivered_customer_date,order_purchase_timestamp)) is not null 
 	and extract(day from age(order_delivered_customer_date, order_purchase_timestamp)) = 0
 order by 3 asc , 4 asc
-limit 5 
+limit 5
 ````
 
 | seller_id                        | delivered_day | delivered_hour | delivered_minute |
@@ -74,3 +74,35 @@ order by s.delivered_hour asc , s.delivered_minute asc
 
 ## Question 2 :
 ### What sellers sell products in more categories? Do sellers with more categories also have a higher order count?
+
+````sql
+select 
+	s.seller_id,
+	count( distinct p.product_category_name) as category_count,
+	count(distinct o.order_id) as order_count
+from sellers as s
+left join order_items as oi 
+	on oi.seller_id=s.seller_id
+left join products as p 
+	on p.product_id=oi.product_id
+left join orders as o 
+	on o.order_id=oi.order_id
+where p.product_category_name is not null
+group by 1
+order by  2 desc
+limit 10
+````
+
+| seller_id                        | category_count | order_count |
+|----------------------------------|----------------|-------------|
+| b2ba3715d723d245138f291a6fe42594 | 27             | 337         |
+| 955fee9216a65b617aa5c0531780ce60 | 23             | 1287        |
+| 4e922959ae960d389249c378d1c939f5 | 23             | 405         |
+| 1da3aeb70d7989d1e6d9b0e887f97c23 | 21             | 265         |
+| f8db351d8c4c4c22c6835c19a46f01b0 | 19             | 665         |
+| 18a349e75d307f4b4cc646a691ed4216 | 17             | 121         |
+| 6edacfd9f9074789dad6d62ba7950b9c | 15             | 208         |
+| 70a12e78e608ac31179aea7f8422044b | 15             | 315         |
+| 7178f9f4dd81dcef02f62acdf8151e01 | 14             | 203         |
+| 8b28d096634035667e8263d57ba3368c | 14             | 143         |
+
