@@ -106,3 +106,6 @@ limit 10
 | 7178f9f4dd81dcef02f62acdf8151e01 | 14             | 203         |
 | 8b28d096634035667e8263d57ba3368c | 14             | 143         |
 
+# SELLER ANALYSİS DASHBOARD 📊📈🛒
+
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/35bbf8b3-f296-4d5f-921b-46c9dd1dbfed)
