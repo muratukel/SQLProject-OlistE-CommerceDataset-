@@ -141,5 +141,5 @@ order by cto.order_count_ desc
 ## ❗ the first ten lines are shown.
 #  CUSTOMER ANALYSİS DASHBOARD 📊📈📉 
 
-![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/8d40f166-bfd5-40ad-b42a-5a2ed238e98b)
+![img](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/8d40f166-bfd5-40ad-b42a-5a2ed238e98b)
 
