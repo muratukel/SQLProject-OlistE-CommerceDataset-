@@ -2,6 +2,11 @@
 
 ![img](https://miro.medium.com/v2/resize:fit:860/1*axbXtRXw9pgn1QA9HVkQVA.png)
 
+<p align="right">
+  <img src="https://miro.medium.com/v2/resize:fit:860/1*axbXtRXw9pgn1QA9HVkQVA.png" alt="Resim Açıklaması">
+</p>
+
+
 Welcome to the Brazilian E-Commerce Public Dataset by Olist! This dataset contains valuable information about over 100,000 orders made at the Olist Store in Brazil from 2016 to 2018. These orders were placed on various marketplaces across the country. The dataset is rich in features, allowing you to explore orders from multiple dimensions, including order status, pricing, payment and shipping performance, customer locations, product attributes, and customer reviews.
 
 In addition, we have also provided a geolocation dataset that maps Brazilian zip codes to latitude and longitude coordinates, making it even more valuable for analysis.
