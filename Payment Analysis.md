@@ -58,7 +58,7 @@ order by order_count desc
 | debit_card    | 1,523       | $215,129.02    |
 | not_defined   | 3           | $0.00          |
 
-# Question 3
+# 💵 Question 3
 ## Analyze orders paid in single payment and in installments by category. In which categories is installment payment used the most?
 ````sql
 with one_shot as (
@@ -112,4 +112,4 @@ order by
 | brinquedos              | 1,902                | 2,008                   |
 | perfumaria              | 1,238                | 1,945                   |
 
-the first ten lines are shown.
+### ❗ the first ten lines are shown.
