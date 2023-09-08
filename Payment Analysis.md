@@ -113,4 +113,5 @@ order by
 | perfumaria              | 1,238                | 1,945                   |
 
 ### ❗ the first ten lines are shown.
-# PAYMENT ANALYSİS DASHBOARD 
+# PAYMENT ANALYSİS DASHBOARD 💳📊
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/090f5510-89ac-4171-92d4-1765c0bb716c)
