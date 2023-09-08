@@ -108,4 +108,5 @@ limit 10
 
 # SELLER ANALYSİS DASHBOARD 📊📈🛒
 
-![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/35bbf8b3-f296-4d5f-921b-46c9dd1dbfed)
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/81b80cb3-ab44-44b4-8eb2-6eb656dc2289)
+
