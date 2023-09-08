@@ -348,3 +348,5 @@ order by order_count  desc;
 | 809         | TUESDAY     | 6            |
 
 ### ❗ the first ten lines are shown.
+
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/af6d3232-2a1d-46a3-a328-dd78b65049c4)
