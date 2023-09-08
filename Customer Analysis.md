@@ -139,3 +139,6 @@ order by cto.order_count_ desc
 | 1b6c7548a2a1f9037c1fd3ddfed95f33 | papelaria                              | 1           | 7            | 2          | 14.00          |
 
 ## ❗ the first ten lines are shown.
+CUSTOMER ANALYSİS DASHBOARD
+![image](https://github.com/muratukel/SQLProject-OlistE-CommerceDataset-/assets/136103635/8d40f166-bfd5-40ad-b42a-5a2ed238e98b)
+
